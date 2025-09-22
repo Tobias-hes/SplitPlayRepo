@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0104aaa17ca740944a99054492fcf7a9, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  activeCharacter: 0
+  activeCharacterChoices:
+  - key: 0
+    value: Glass Cannon
+  - key: 1
+    value: Tank
+  glassCannonStats:
+  - key: 0
+    value: 100
+  - key: 1
+    value: 3
+  - key: 2
+    value: 5
+  - key: 3
+    value: 0
+  - key: 4
+    value: 0
+  - key: 5
+    value: 15
+  tankStats:
+  - key: 0
+    value: 150
+  - key: 1
+    value: 3
+  - key: 2
+    value: 50
+  - key: 3
+    value: 50
+  - key: 4
+    value: 8
+  - key: 5
+    value: 0
+  - key: 6
+    value: 0
+  abilityActive:
+  - key: 0
+    value: 0
+  - key: 1
+    value: 0
+  PlayerTPPosition: {x: 0, y: 0}

@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "InputSystem_GameManagerInputActions",
+    "maps": [
+        {
+            "name": "GameManager",
+            "id": "1e1ef819-4a20-472f-9e7b-6a843c49c56d",
+            "actions": [
+                {
+                    "name": "ResetGame",
+                    "type": "Button",
+                    "id": "4422f475-5155-4cee-b07e-8265b63a04a9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "QuitGame",
+                    "type": "Button",
+                    "id": "54fbfa46-3f40-4328-8dd0-127612e8ddad",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "30db45e7-a853-4d6b-9778-45d51eb24913",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fddd5607-9a67-4675-b7db-f0b5d838100e",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QuitGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
